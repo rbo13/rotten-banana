@@ -1,0 +1,113 @@
+.header {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.movie-item {
+	float: left;
+	padding: 15px 10px;
+	width: 100%;
+}
+
+.movies-list {
+	margin-bottom: 10px;
+}
+
+.movie-item-link .movie-item {
+	color: black;
+}
+.movie-item-link:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.movie-item:hover {
+	background-color: #008975 !important;
+	color: white !important;
+}
+
+.movie-item .item-title {
+	margin: 0;
+	float: left;
+	font-size: 25px;
+	font-weight: 600;
+	max-width: 80%;
+}
+.movie-item .item-release-date {
+	margin: 0;
+	padding-top:5px;
+	font-style: italic;
+	float: right;
+	max-width: 20%;
+	text-align: right;
+}
+
+.inner-addon {
+		position: relative;
+}
+
+.search-bar .movie-search {
+	height: 50px;
+	font-size: 18px;
+	padding-left: 15px;
+}
+
+.tagline {
+	font-weight: 600;
+	font-style: italic;
+}
+
+.summary {
+	margin-top: 15px;
+}
+
+.review-detail {
+	padding: 15px 0;
+}
+
+.trailers {
+	margin: 15px 0;
+	padding: 10px 0;
+	text-align: center;
+}
+.trailer {
+	padding: 15px 0;
+}
+
+/* CARDS */
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+		border-radius: 5px;
+		padding: 16px;
+		padding-top: 24px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+/*END CARDS*/
+
+/* style icon */
+.inner-addon .glyphicon {
+	position: absolute;
+	padding: 15px;
+	pointer-events: none;
+	font-size: 18px;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }

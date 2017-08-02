@@ -17,3 +17,5 @@ To boot-up the development server using webpack:
 ```sh
 $ npm run start-dev
 ```
+
+See the working app at http://localhost:8080
